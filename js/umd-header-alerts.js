@@ -49,7 +49,7 @@ function doAjax(url, callback) {
       callback(data);
     })
     .catch(function(err) {
-      console.log("Opps, Something went wrong!", err);
+      console.log("Could not check for UMD alerts:", err);
       callback(null);
     });
 }
