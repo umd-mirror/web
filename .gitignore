@@ -7,8 +7,12 @@ archstrike
 berlios_is_gone
 bw_hourly.csv
 bw_hourly.csv.tmp
+bw_hourly.png
+bw_hourly.svg
 bw_minutely.csv
 bw_minutely.csv.tmp
+bw_minutely.png
+bw_minutely.svg
 calculate
 centos
 chart_day.html
