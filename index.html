@@ -219,8 +219,9 @@
 		</table>
 		<p>Contact us: <em>mirror at (hostname)</em></p>
 		<div id="chart">
-			<div id="chart_hour"></div><div id="chart_day"></div><br>
+			<!--<div id="chart_hour"></div><div id="chart_day"></div><br>-->
 			<!--<div><img src="/bw_minutely.svg" alt="Graph of throughput Last Hour"></div><div><img src="/bw_hourly.svg" alt="Graph of throughput Last Day"></div>-->
+			<div><img src="/vnstat-hourly.png" alt="Hourly bandwidth stats"></div><div><img src="/vnstat-daily.png"></div>
 		</div>
 	</div>
 </div>
@@ -289,13 +290,13 @@ doAjax('/stats.json', function(response) {
 	}
 });
 
-doAjax('/chart.html', function(resp) {
-	document.getElementById('chart_hour').innerHTML = resp;
-});
-
-doAjax('/chart_day.html', function(resp) {
-	document.getElementById('chart_day').innerHTML = resp;
-});
+//doAjax('/chart.html', function(resp) {
+//	document.getElementById('chart_hour').innerHTML = resp;
+//});
+//
+//doAjax('/chart_day.html', function(resp) {
+//	document.getElementById('chart_day').innerHTML = resp;
+//});
 
 });
 </script>
