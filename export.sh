@@ -22,6 +22,8 @@ exp kernel kernel
 exp kernel kernel.org
 exp linuxmint linuxmint
 exp mozdev mozdev
+exp mxlinux mxlinux
+exp mxlinux-iso mxlinux-iso
 exp opensuse opensuse
 exp ros-packages packages.ros.org
 exp ros-packages ros/packages
