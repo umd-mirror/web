@@ -10,7 +10,6 @@ exp amanda amanda
 exp archlinux archlinux
 exp calculate calculate
 exp centos centos
-exp ospdev download.ospdev.net
 exp fedora fedora
 exp findbugs findbugs
 exp gentoo gentoo
